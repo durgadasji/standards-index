@@ -26,7 +26,7 @@ Standards in this category are published independently. They share structural gr
 
 ### CROSS: Common Reporting Outcome Standards Schema
 
-[github.com/durgadasji/cross-standard](https://github.com/durgadasji/cross-standard)
+[github.com/durgadasji/CROSS](https://github.com/durgadasji/CROSS)
 
 A portable grant accountability standard specifying what funded interventions are obligated to produce. CROSS covers three accountability modes: build obligation (a specified deliverable with falsifiable completion criteria), change obligation (a measurable shift from a named FROM state in a defined population), and retroactive obligation (evidence of prior contribution meeting published threshold criteria). A four-gate architecture (entry specification, progress verification, completion verification, continuation specification) allows funders to configure where evidentiary pressure falls. The full companion document suite includes a grant configurator, grantee dashboard, reviewers dashboard, assessment rubric, worked examples, and Claude skill.
 

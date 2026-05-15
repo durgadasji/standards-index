@@ -14,7 +14,7 @@ Standards in this category are built on the suite's seven Tensegrity Compressive
 
 [github.com/durgadasji/collegius-standard](https://github.com/durgadasji/collegius-standard)
 
-Structural conditions for a self-curating body of contributors to function as credibly neutral, funder-independent distribution infrastructure for a field of sustained work. The Collegius Standard specifies what a conformant Collegius must have in place: a self-curated membership registry, a distribution invariant, and a thin funder interface — each constitutively load-bearing for the others.
+Structural conditions for a self-curating body of contributors to function as credibly neutral, funder-independent distribution infrastructure for a field of sustained work. The Collegius Standard specifies what a conformant Collegius must have in place: a self-curated membership registry, a distribution invariant, and a thin funder interface, each constitutively load-bearing for the others.
 
 Status: working draft, v0.2.6. General infrastructure any funder or ecosystem can adopt.
 
@@ -22,7 +22,17 @@ Status: working draft, v0.2.6. General infrastructure any funder or ecosystem ca
 
 ## Independent standards
 
-No independent standards have been published yet. This section will grow as new instruments are developed.
+Standards in this category are published independently. They share structural grounding with the Coordination Structural Integrity Suite but do not require suite adoption for conformance.
+
+### CROSS: Common Reporting Outcome Standards Schema
+
+[github.com/durgadasji/cross-standard](https://github.com/durgadasji/cross-standard)
+
+A portable grant accountability standard specifying what funded interventions are obligated to produce. CROSS covers three accountability modes: build obligation (a specified deliverable with falsifiable completion criteria), change obligation (a measurable shift from a named FROM state in a defined population), and retroactive obligation (evidence of prior contribution meeting published threshold criteria). A four-gate architecture (entry specification, progress verification, completion verification, continuation specification) allows funders to configure where evidentiary pressure falls. The full companion document suite includes a grant configurator, grantee dashboard, reviewers dashboard, assessment rubric, worked examples, and Claude skill.
+
+CROSS is published under CC0 and is designed to be adoptable without adopting the Coordination Structural Integrity Suite. It shares structural grounding with four compressive standards (Precision-First Design, Adverse-Signal Engagement Principle Core, Information Asymmetry Classification, and Regenerative Obligation), from which it inherits requirements by reference, with all inherited requirements stated within CROSS itself.
+
+Status: published, v0.2.0. General-purpose infrastructure for grants ecosystems.
 
 ---
 

@@ -24,15 +24,29 @@ Status: working draft, v0.2.6. General infrastructure any funder or ecosystem ca
 
 Standards in this category are published independently. They share structural grounding with the Coordination Structural Integrity Suite but do not require suite adoption for conformance.
 
-### CROSS: Common Reporting Outcome Standards Schema
+### CROSS+WALKRI
 
-[github.com/durgadasji/CROSS](https://github.com/durgadasji/CROSS)
+CROSS and WALKRI are companion standards published together under the [cross-walkri](https://github.com/cross-walkri) account. They are designed to be adopted together or independently.
 
-A portable grant accountability standard specifying what funded interventions are obligated to produce. CROSS covers three accountability modes: build obligation (a specified deliverable with falsifiable completion criteria), change obligation (a measurable shift from a named FROM state in a defined population), and retroactive obligation (evidence of prior contribution meeting published threshold criteria). A four-gate architecture (entry specification, progress verification, completion verification, continuation specification) allows funders to configure where evidentiary pressure falls. The full companion document suite includes a grant configurator, grantee dashboard, reviewers dashboard, assessment rubric, worked examples, and Claude skill.
+#### CROSS: Common Reporting Outcome Standards Schema
+
+[github.com/cross-walkri/CROSS](https://github.com/cross-walkri/CROSS)
+
+A portable grant obligation standard specifying what funded interventions are obligated to produce. CROSS covers three obligation modes: build obligation (a specified deliverable with falsifiable completion criteria), change obligation (a measurable shift from a named FROM state in a defined population), and retroactive obligation (evidence of prior contribution meeting published threshold criteria). A four-gate architecture (entry specification, progress verification, completion verification, continuation specification) allows funders to configure where evidentiary pressure falls. The full companion document suite includes a grant configurator, grantee dashboard, reviewers dashboard, assessment rubric, worked examples, and Claude skill.
 
 CROSS is published under CC0 and is designed to be adoptable without adopting the Coordination Structural Integrity Suite. It shares structural grounding with four compressive standards (Precision-First Design, Adverse-Signal Engagement Principle Core, Information Asymmetry Classification, and Regenerative Obligation), from which it inherits requirements by reference, with all inherited requirements stated within CROSS itself.
 
-Status: published, v0.2.0. General-purpose infrastructure for grants ecosystems.
+Status: published, v0.2.4. General-purpose infrastructure for grants ecosystems.
+
+#### WALKRI: Working Architecture for Legible, Knowledge-Ready Intake
+
+[github.com/cross-walkri/WALKRI](https://github.com/cross-walkri/WALKRI)
+
+A companion standard to CROSS specifying epistemic quality at the point of capture: how fields and criteria used to collect structured information must be defined so the resulting data is valid, consistent, provenance-aware, and reusable by both humans and machines. WALKRI introduces the Bidirectional Precision Principle: the same operational definition rigor CROSS requires of applicant indicators applies to funders specifying gate criteria and application fields. WALKRI operates on JSON Schema as its native format, sits above form tools (Fillout, Jotform, Typeform, and others) as a pre-publishing quality gate and post-submission enrichment layer, and produces output aligned with Croissant, FAIR, and W3C PROV downstream standards.
+
+WALKRI is published under CC0 and is portable: it works with any obligation standard or none. Together with CROSS it forms the CROSS+WALKRI pair for end-to-end structured intake quality in grants programs.
+
+Status: published, v0.1.0. Companion infrastructure for any program collecting structured intake data.
 
 ---
 

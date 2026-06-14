@@ -20,7 +20,7 @@ The meta-standard for making a standard falsifiable and legible: six conditions 
 
 ## The Coordination Structural Integrity Suite
 
-[coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io)
+[coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
 
 Ten standards specifying the structural conditions under which a coordination system holds its integrity under pressure. Seven compressive (floors that must not be crossed), three generative (capacities that must be present).
 
@@ -62,7 +62,7 @@ The descriptive grammar underneath the grants pair: the shared primitives a gran
 
 ### Frame Language (Dimensional Frame Language)
 
-Published as a Suite document at [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io)
+Published as a Suite document at [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
 
 Not a standard and not a domain instrument: the vocabulary discipline the whole body rests on. Frame Language supplies the canonical terms a standard must use to carry its meaning intact, and the decomposition method for reaching them. Published vocabulary specification.
 
@@ -81,8 +81,8 @@ Structural conditions for a self-curating body of contributors to function as cr
 ## Sites
 
 - The CROSS+WALKRI builder, a working reference implementation that configures conformant rounds and theory-of-change pathways: [crosswalkri-builder.vercel.app](https://crosswalkri-builder.vercel.app)
-- The Coordination Structural Integrity Suite site: [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io)
+- The Coordination Structural Integrity Suite site: [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
 
 ---
 
-*These standards descend from or sit alongside the Coordination Structural Integrity Suite, maintained at [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io).*
+*These standards descend from or sit alongside the Coordination Structural Integrity Suite, maintained at [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/).*

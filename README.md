@@ -4,7 +4,7 @@ This repository is the public index of the structural standards work developed b
 
 Everything indexed here is published under open licenses and is adoptable on its own terms.
 
-The shape, in brief: one meta-standard (CRAFT) operates on standards themselves; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT and WALKRI work across domains; CROSS and GRAIN are the grants pair.
+The shape, in brief: one meta-standard (CRAFT) operates on standards themselves; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT and WALKRI work across domains; CROSS and GRAIN are the grants pair.
 
 ---
 
@@ -60,11 +60,11 @@ The descriptive grammar underneath the grants pair: the shared primitives a gran
 
 ## The substrate
 
-### Frame Language (Dimensional Frame Language)
+### Dimensional Frame Language (Frame Language)
 
-Published as a Suite document at [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
+Published as a Suite document: [Frame Language Foundational Vocabulary Specification](https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md)
 
-Not a standard and not a domain instrument: the vocabulary discipline the whole body rests on. Frame Language supplies the canonical terms a standard must use to carry its meaning intact, and the decomposition method for reaching them. Published vocabulary specification.
+Not a standard and not a domain instrument: the vocabulary discipline the whole body rests on. Dimensional Frame Language supplies the canonical terms a standard must use to carry its meaning intact, and the decomposition method for reaching them. Published vocabulary specification.
 
 ---
 

@@ -4,7 +4,7 @@ This repository is the public index of the structural standards work developed b
 
 Everything indexed here is published under open licenses and is adoptable on its own terms.
 
-The shape, in brief: one meta-standard (CRAFT) operates on standards themselves; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT and WALKRI work across domains; CROSS and GRAIN are the grants pair.
+The shape, in brief: one meta-standard (CRAFT) operates on standards themselves, with ORE as its companion specification at the ingestion boundary; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT, ORE, and WALKRI work across domains; CROSS and GRAIN are the grants pair.
 
 ---
 
@@ -15,6 +15,12 @@ The shape, in brief: one meta-standard (CRAFT) operates on standards themselves;
 [github.com/CrossWalkri/craft-meta-standard](https://github.com/CrossWalkri/craft-meta-standard)
 
 The meta-standard for making a standard falsifiable and legible: six conditions a standard must satisfy to be checkable by an independent reader, plus the construction grammar for applying them to a domain. Its object is a standard as such, which is what makes it the one meta-standard rather than one more domain standard. Published specification.
+
+### ORE: Origin, Reliability, Exposure
+
+[github.com/CrossWalkri/ORE](https://github.com/CrossWalkri/ORE)
+
+CRAFT's companion specification at the ingestion boundary: what an evaluation chain is allowed to assume about the sources feeding it. ORE grades sources as uncertainty rather than judging them as quality (how much of a source's reliability can currently be seen, and what is being trusted that cannot be seen), requires the intake posture to be declared and enforced, and makes every output expose the grade profile of the sources it rests on, so nothing is silently laundered into a downstream judgment. As of CRAFT v0.4.4, a chain that ingests material it did not create satisfies CRAFT's ingestion boundary declaration by adopting ORE or by declaring equivalent obligations; a condition-by-condition map of where ORE attaches to CRAFT's six conditions ships in the ORE repository. Not a domain application: a companion, independently adoptable. Published under CC0.
 
 ---
 

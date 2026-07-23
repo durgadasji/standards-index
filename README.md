@@ -84,10 +84,15 @@ Structural conditions for a self-curating body of contributors to function as cr
 
 ---
 
-## Sites
+## Sites and tools
 
 - The CROSS+WALKRI builder, a working reference implementation that configures conformant rounds and theory-of-change pathways: [crosswalkri-builder.vercel.app](https://crosswalkri-builder.vercel.app)
 - The Coordination Structural Integrity Suite site: [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
+- The Dimensional Frame Language analyzer, a live browser tool that flags terms carrying unearned weight and offers the plain replacement: [framelanguage.regischapman.com](https://framelanguage.regischapman.com)
+- The Precision Toolkit for AI (PT4AI), a published workbench for AI-assisted evaluation built on these standards: [precision.regischapman.com](https://precision.regischapman.com)
+- The Precision Council for AI (PC4AI), a multi-evaluator adversarial review council with independent evaluators and a synthesis chair: [precision-council.regischapman.com](https://precision-council.regischapman.com)
+
+Three MCP servers put the standards directly inside any AI assistant: the CSIS server and the Dimensional Frame Language server at [github.com/coordination-structural-integrity-suite/tools](https://github.com/coordination-structural-integrity-suite/tools), and the CROSS+WALKRI server at [github.com/CrossWalkri/tools](https://github.com/CrossWalkri/tools).
 
 ---
 

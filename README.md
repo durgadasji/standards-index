@@ -4,7 +4,7 @@ This repository is the public index of the structural standards work developed b
 
 Everything indexed here is published under open licenses and is adoptable on its own terms.
 
-The shape, in brief: one meta-standard (CRAFT) operates on standards themselves, with ORE as its companion specification at the ingestion boundary; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT, ORE, and WALKRI work across domains; CROSS and GRAIN are the grants pair.
+The shape, in brief: one meta-standard (CRAFT) operates on standards themselves, with ORE and STRUCK as its companion specifications at the ingestion and exit boundaries; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT, ORE, STRUCK, and WALKRI work across domains; CROSS and GRAIN are the grants pair.
 
 ---
 
@@ -21,6 +21,12 @@ The meta-standard for making a standard falsifiable and legible: six conditions 
 [github.com/CrossWalkri/ORE](https://github.com/CrossWalkri/ORE)
 
 CRAFT's companion specification at the ingestion boundary: what an evaluation chain is allowed to assume about the sources feeding it. ORE grades sources as uncertainty rather than judging them as quality (how much of a source's reliability can currently be seen, and what is being trusted that cannot be seen), requires the intake posture to be declared and enforced, and makes every output expose the grade profile of the sources it rests on, so nothing is silently laundered into a downstream judgment. As of CRAFT v0.4.4, a chain that ingests material it did not create satisfies CRAFT's ingestion boundary declaration by adopting ORE or by declaring equivalent obligations; a condition-by-condition map of where ORE attaches to CRAFT's six conditions ships in the ORE repository. Not a domain application: a companion, independently adoptable. Published under CC0.
+
+### STRUCK: the exit-boundary standard
+
+[github.com/CrossWalkri/STRUCK](https://github.com/CrossWalkri/STRUCK)
+
+CRAFT's companion specification at the exit boundary, the mirror of ORE: where ORE covers what a chain may assume about the sources entering it, STRUCK covers what an output owes on the way out. It specifies the five obligations any evidence-grade output must carry on its face, so the party receiving it can do more than take it or leave it: support graded per dimension with the weakest assessment exposed, the chain traced to ultimate origin with every rung labeled for what it is, refutation conditions stated in terms of what could be found in the world, contested regions kept rather than averaged into a central value, and the worth-judgment left to the consumer with what they need to make it. Conformance is assessable from the output alone. STRUCK expands as Support graded, Traced to origin, Refutation stated, Unjudged worth, Contest kept, Known on its face. It inherits ORE and CRAFT by reference and is independently adoptable: ORE and STRUCK bracket any process, with or without CRAFT in the middle. Published under CC0.
 
 ---
 

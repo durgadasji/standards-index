@@ -1,95 +1,123 @@
 # Standards Index
 
-This repository is the public index of the structural standards work developed by Durgadas (Regis Chapman) in the course of building the Proof of Coordination protocol, together with the related public material: the companion document suites, the prompts and skills, and the sites. It lists what each item is, where it lives, and its current status.
+This is the public index of the standards developed by Durgadas (Regis Chapman): what each one is, where to read it, and where it is applied. It is organized the way the standards site presents them, at **[integritysuite.org](https://integritysuite.org)**.
+
+The frame, in brief: any decision that matters has to hold up on several sides at once, structure, evidence, reasoning, meaning, and time, and the most expensive failures are on the side no one checked. Each standard makes one of those sides something you can show instead of something you ask people to take on trust. Two of the standards are meta-standards, standards about standards: the Precision-First Design Standard is the keystone the structural suite is built on, and CRAFT is the meta-standard for any evaluation chain, with ORE and STRUCK as its boundary companions. Everything else is a domain standard or the vocabulary substrate they all rest on.
 
 Everything indexed here is published under open licenses and is adoptable on its own terms.
 
-The shape, in brief: one meta-standard (CRAFT) operates on standards themselves, with ORE and STRUCK as its companion specifications at the ingestion and exit boundaries; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it. CRAFT, ORE, STRUCK, and WALKRI work across domains; CROSS and GRAIN are the grants pair.
-
 ---
 
-## The meta-standard
+## The evaluation meta-standard
+
+CRAFT operates on standards themselves, making any evaluation standard checkable by an independent reader, with its two boundary companions at the edges of the chain.
 
 ### CRAFT
 
-[github.com/CrossWalkri/craft-meta-standard](https://github.com/CrossWalkri/craft-meta-standard)
+The meta-standard for making a standard falsifiable and legible: six conditions a standard must satisfy to be checkable by an independent reader, plus the grammar for applying them to a domain. Its object is a standard as such, which is what makes it the one meta-standard rather than another domain standard.
 
-The meta-standard for making a standard falsifiable and legible: six conditions a standard must satisfy to be checkable by an independent reader, plus the construction grammar for applying them to a domain. Its object is a standard as such, which is what makes it the one meta-standard rather than one more domain standard. Published specification.
+[Read it on integritysuite.org](https://integritysuite.org/standards/craft) · [Specification](https://github.com/CrossWalkri/craft-meta-standard)
 
-### ORE: Origin, Reliability, Exposure
+### ORE
 
-[github.com/CrossWalkri/ORE](https://github.com/CrossWalkri/ORE)
+Origin, Reliability, Exposure. The ingestion boundary: what an evaluation chain is allowed to assume about the sources feeding it. Sources are graded as uncertainty rather than judged as quality, and every output exposes the grade profile of what it rests on, so nothing shaky is quietly laundered into a confident conclusion. A companion, independently adoptable.
 
-CRAFT's companion specification at the ingestion boundary: what an evaluation chain is allowed to assume about the sources feeding it. ORE grades sources as uncertainty rather than judging them as quality (how much of a source's reliability can currently be seen, and what is being trusted that cannot be seen), requires the intake posture to be declared and enforced, and makes every output expose the grade profile of the sources it rests on, so nothing is silently laundered into a downstream judgment. As of CRAFT v0.4.4, a chain that ingests material it did not create satisfies CRAFT's ingestion boundary declaration by adopting ORE or by declaring equivalent obligations; a condition-by-condition map of where ORE attaches to CRAFT's six conditions ships in the ORE repository. Not a domain application: a companion, independently adoptable. Published under CC0.
+[Read it on integritysuite.org](https://integritysuite.org/standards/ore) · [Specification](https://github.com/CrossWalkri/ORE)
 
-### STRUCK: the exit-boundary standard
+### STRUCK
 
-[github.com/CrossWalkri/STRUCK](https://github.com/CrossWalkri/STRUCK)
+The exit boundary, the mirror of ORE: what an output owes on the way out. Five obligations any evidence-grade result must carry on its face, so the party receiving it can assess it from the output alone. Support graded, Traced to origin, Refutation stated, Unjudged worth, Contest kept, Known on its face. ORE and STRUCK bracket any process, with or without CRAFT in the middle.
 
-CRAFT's companion specification at the exit boundary, the mirror of ORE: where ORE covers what a chain may assume about the sources entering it, STRUCK covers what an output owes on the way out. It specifies the five obligations any evidence-grade output must carry on its face, so the party receiving it can do more than take it or leave it: support graded per dimension with the weakest assessment exposed, the chain traced to ultimate origin with every rung labeled for what it is, refutation conditions stated in terms of what could be found in the world, contested regions kept rather than averaged into a central value, and the worth-judgment left to the consumer with what they need to make it. Conformance is assessable from the output alone. STRUCK expands as Support graded, Traced to origin, Refutation stated, Unjudged worth, Contest kept, Known on its face. It inherits ORE and CRAFT by reference and is independently adoptable: ORE and STRUCK bracket any process, with or without CRAFT in the middle. Published under CC0.
+[Read it on integritysuite.org](https://integritysuite.org/standards/struck) · [Specification](https://github.com/CrossWalkri/STRUCK)
 
 ---
 
-## The Coordination Structural Integrity Suite
+## Structural Integrity
 
-[coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
+The keystone meta-standard and the ten-standard suite built on it: the conditions under which a coordination system holds together under pressure.
 
-Ten standards specifying the structural conditions under which a coordination system holds its integrity under pressure. Seven compressive (floors that must not be crossed), three generative (capacities that must be present).
+### Precision-First Design Standard (PFDS)
 
-**Seven Tensegrity Compressive Standards:** Precision-First Design (the keystone, holding precision and non-harming as one commitment), Adverse-Signal Engagement Principle Core, Structural Consent Legibility, Information Asymmetry Classification, Structural Power Obligation, Regenerative Obligation, and Coordination Scaling.
+The keystone of the suite, holding precision and non-harming as one commitment. Every other structural standard is a precise specification of what that commitment requires in one coordination domain, which is what makes this the meta-standard the rest of the suite rests on.
 
-**Three Tensegrity Generative Standards:** Sensemaking, Four Batteries Capacity, and Conflict Transformation.
+[Read the suite](https://coordination-structural-integrity-suite.github.io/ai/)
 
-The suite ships with more than its standards. Suite-level documents (Tensegrity Architecture, the Suite Integration Guide, the Suite Structural Patterns Primer, the Suite Deployment Contexts) orient adopters across the whole. A paste-and-go AI prompt for every standard, plus suite-wide audit and triage prompts, lets any AI assistant run an assessment. Per-standard Claude skills carry the reasoning frame for extended work. A one-page AI prompt launcher gives access to every prompt in one place.
+### Coordination Structural Integrity Suite (CSIS)
+
+Ten standards specifying the structural conditions a coordination system must hold to. Seven are floors that must not be crossed, three are capacities that must be present. The suite ships with integration guides, patterns, paste-and-go AI prompts, and per-standard skills.
+
+[Read the suite](https://coordination-structural-integrity-suite.github.io/ai/)
 
 ---
 
 ## The grants domain
 
-### CROSS: Common Reporting Outcome Standards Schema
+What funded work is obligated to produce, how each data point is captured, and the grammar underneath both. This is the first domain the cross-domain standards were applied to; it lives as a working site at [crosswalkri.com](https://crosswalkri.com).
 
-[github.com/CrossWalkri/CROSS](https://github.com/CrossWalkri/CROSS)
+### CROSS
 
-A portable grant obligation standard specifying what funded interventions are obligated to produce: three obligation modes (build, change, retroactive) and a four-gate architecture (entry specification, progress verification, completion verification, continuation specification) that lets funders configure where evidentiary pressure falls. CROSS shares structural grounding with four compressive standards and states every inherited requirement within itself, so it is adoptable without adopting the full suite. Published under CC0.
+Common Reporting Outcome Standards Schema. A portable grant obligation standard: three obligation modes and a four-gate architecture that lets funders configure where the evidentiary pressure falls. Adoptable without adopting the full suite, because it states every inherited requirement within itself.
 
-Its companion suite is substantial: the canonical round-configuration schema with guidance, rubric, templates, and worked examples; a grant configurator; grantee and reviewer dashboards; runbooks; and a Claude skill with a Theory-of-Change builder.
+[Specification](https://github.com/CrossWalkri/CROSS) · [In practice](https://crosswalkri.com)
 
-### WALKRI: Working Architecture for Legible, Knowable, Reliable Instrumentation
+### WALKRI
 
-[github.com/CrossWalkri/WALKRI](https://github.com/CrossWalkri/WALKRI)
+Working Architecture for Legible, Knowable, Reliable Instrumentation. Epistemic quality at the point of data capture. Its unit is the instrument: any single place structured data is captured, a form field, a prompt constraint, a structured-output schema element, a rubric item. It specifies how each instrument must be defined so the data it produces is valid, consistent, provenance-aware, and reusable. A cross-domain standard, first applied in grants.
 
-A companion standard specifying epistemic quality at the point of data capture. Its unit is the instrument: any single point where structured data is captured, whether a form field, an AI prompt constraint, a structured-output schema element, a rubric item, or an extraction specification. WALKRI specifies how each instrument must be defined so the data it produces is valid, consistent, provenance-aware, and reusable. It carries the Bidirectional Precision Principle, operates on JSON Schema above any one capture tool, and produces output aligned with Croissant, FAIR, and W3C PROV. Published under CC0.
+[Read it on integritysuite.org](https://integritysuite.org/standards/walkri) · [Specification](https://github.com/CrossWalkri/WALKRI) · [In grants](https://crosswalkri.com)
 
-Its companion suite includes the standard, guidance, rubric, templates, worked examples, an interface specification, runbooks, and a scope document.
+### GRAIN
 
-### GRAIN: the grants descriptive grammar
+The descriptive grammar underneath the grants pair: the shared primitives a grant program is built from, independent of any one standard's requirements. GRAIN is to CROSS as a grammar is to a usage rule, naming the parts the requirements are built from. Foundation in preparation for publication.
 
-[github.com/CrossWalkri/GRAIN](https://github.com/CrossWalkri/GRAIN)
-
-The descriptive grammar underneath the grants pair: the shared primitives a grant program is built from, independent of any one standard's requirements. Its core is a foundation of primitives published as GRAIN-FOUNDATION, with a framework index and the public derivation. GRAIN is to CROSS as a grammar is to a usage rule: CROSS says what must be produced, GRAIN names the parts the saying is built from. Foundation in preparation for publication. Published under CC0.
+[Specification](https://github.com/CrossWalkri/GRAIN)
 
 ---
 
-## The substrate
+## Meaning Integrity
 
-### Dimensional Frame Language (Frame Language)
+The vocabulary discipline the whole body rests on.
 
-Published as a Suite document: [Frame Language Foundational Vocabulary Specification](https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md)
+### Dimensional Frame Language
 
-Not a standard and not a domain instrument: the vocabulary discipline the whole body rests on. Dimensional Frame Language supplies the canonical terms a standard must use to carry its meaning intact, and the decomposition method for reaching them. Published vocabulary specification.
+Not a standard and not a domain instrument, but the substrate beneath all of them: the canonical terms a standard must use to carry its meaning intact, and the method for reaching them. It is what keeps a word from quietly meaning less than the check that rests on it.
+
+[Read it on integritysuite.org](https://integritysuite.org/meaning) · [Specification](https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md)
+
+---
+
+## Temporal Integrity
+
+The fifth side, time: whether a reading, a proof, or a decision still holds at the moment it is used, not only when it was produced. The standard here is in progress; until it publishes, it is the emerging face of the suite rather than a released document.
+
+---
+
+## Developer and independent standards
+
+Standards that stand on their own, independent of the coordination work above, and used across the sites and tools.
+
+### TEMPER
+
+A semantic color system: five appearance modes on one token schema, with every color solved to a contrast floor by the engine rather than chosen by eye. It is what themes integritysuite.org, and it adopts onto any site as one CSS file and a small mode switcher.
+
+[Specification and source](https://github.com/durgadasji/temper)
+
+### Precision for AI (P4AI)
+
+An operating discipline for working with an AI model: the practices for keeping AI-assisted work precise and checkable rather than taken on the model's word. The Precision Toolkit (PT4AI) and Precision Council (PC4AI) in the tools below are what apply it.
+
+[Source](https://github.com/durgadasji/p4ai)
 
 ---
 
 ## Sites and tools
 
-- The CROSS+WALKRI builder, a working reference implementation that configures conformant rounds and theory-of-change pathways: [crosswalkri-builder.vercel.app](https://crosswalkri-builder.vercel.app)
+- The standards site, the front for the whole body: [integritysuite.org](https://integritysuite.org)
+- The grants site, where CROSS, WALKRI, and GRAIN are applied to a funding round: [crosswalkri.com](https://crosswalkri.com)
 - The Coordination Structural Integrity Suite site: [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/)
+- The CROSS+WALKRI builder, a working reference implementation that configures conformant rounds and theory-of-change pathways: [crosswalkri-builder.vercel.app](https://crosswalkri-builder.vercel.app)
 - The Dimensional Frame Language analyzer, a live browser tool that flags terms carrying unearned weight and offers the plain replacement: [framelanguage.regischapman.com](https://framelanguage.regischapman.com)
 - The Precision Toolkit for AI (PT4AI), a published workbench for AI-assisted evaluation built on these standards: [precision.regischapman.com](https://precision.regischapman.com)
 - The Precision Council for AI (PC4AI), a multi-evaluator adversarial review council with independent evaluators and a synthesis chair: [precision-council.regischapman.com](https://precision-council.regischapman.com)
 
 Three MCP servers put the standards directly inside any AI assistant: the CSIS server and the Dimensional Frame Language server at [github.com/coordination-structural-integrity-suite/tools](https://github.com/coordination-structural-integrity-suite/tools), and the CROSS+WALKRI server at [github.com/CrossWalkri/tools](https://github.com/CrossWalkri/tools).
-
----
-
-*These standards descend from or sit alongside the Coordination Structural Integrity Suite, maintained at [coordination-structural-integrity-suite.github.io](https://coordination-structural-integrity-suite.github.io/ai/).*

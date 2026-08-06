@@ -4,7 +4,7 @@ This repository is the public index of the structural standards work developed b
 
 Everything indexed here is published under open licenses and is adoptable on its own terms.
 
-The shape, in brief: one meta-standard (CRAFT) operates on standards themselves, with ORE and STRUCK as its companion specifications at the ingestion and exit boundaries; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it; and the Collegius Standard is held in waiting. CRAFT, ORE, STRUCK, and WALKRI work across domains; CROSS and GRAIN are the grants pair.
+The shape, in brief: one meta-standard (CRAFT) operates on standards themselves, with ORE and STRUCK as its companion specifications at the ingestion and exit boundaries; the Coordination Structural Integrity Suite is the ten-standard structural backbone; the grants domain adds CROSS, WALKRI, and GRAIN; Dimensional Frame Language is the vocabulary substrate beneath all of it. CRAFT, ORE, STRUCK, and WALKRI work across domains; CROSS and GRAIN are the grants pair.
 
 ---
 
@@ -77,16 +77,6 @@ The descriptive grammar underneath the grants pair: the shared primitives a gran
 Published as a Suite document: [Frame Language Foundational Vocabulary Specification](https://github.com/coordination-structural-integrity-suite/suite/blob/main/tensegrity-suite/overview/frame-language-foundational-vocabulary-specification-1_0_0.md)
 
 Not a standard and not a domain instrument: the vocabulary discipline the whole body rests on. Dimensional Frame Language supplies the canonical terms a standard must use to carry its meaning intact, and the decomposition method for reaching them. Published vocabulary specification.
-
----
-
-## Held in waiting
-
-### The Collegius Standard
-
-[github.com/durgadasji/collegius-standard](https://github.com/durgadasji/collegius-standard)
-
-Structural conditions for a self-curating body of contributors to function as credibly neutral, funder-independent distribution infrastructure for a field of sustained work: a self-curated membership registry, a distribution invariant, and a thin funder interface, each load-bearing for the others. Held in waiting rather than in active conformance use; of the three components of its underlying problem, later research has a candidate solution for one and the other two await focused work. Working draft.
 
 ---
 

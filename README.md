@@ -88,7 +88,15 @@ Not a standard and not a domain instrument, but the substrate beneath all of the
 
 ## Temporal Integrity
 
-The fifth side, time: whether a reading, a proof, or a decision still holds at the moment it is used, not only when it was produced. The standard here is in progress; until it publishes, it is the emerging face of the suite rather than a released document.
+The fifth side, time: whether what was sound when it was made still holds at the moment it is used, not only when it was produced. Now in candidate form as two parts, a notation for a chain's temporal profile and the standard that judges it against the moment a stale reading drives a consequence that cannot be undone. Both are Standards Candidates, not yet promoted and not conformance gates.
+
+### TRAINS (Candidate)
+
+Temporal Representation And Interchange Notation. The notation layer: a domain-neutral way to write down a chain's temporal profile, how fast it acts, how quickly its readings go stale, whether and for how long its actions can be undone, its cadence, and what its claims say about time. It represents and renders no verdict, the temporal sibling of GRAIN.
+
+### TIMES (Candidate)
+
+Temporal Integrity Measurement and Evaluation. The judging layer: it reads a profile written in TRAINS and evaluates it against the corners where a reading correct at its source is consumed after it has gone stale, the failure a point-of-entry check never reaches. TIMES is to TRAINS as a judge is to a representation.
 
 ---
 

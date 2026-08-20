@@ -4,7 +4,7 @@ This is the public index of the standards developed by Durgadas (Regis Chapman):
 
 The frame, in brief: any decision that matters has to hold up on several sides at once, structure, evidence, reasoning, meaning, and time, and the most expensive failures are on the side no one checked. Each standard makes one of those sides something you can show instead of something you ask people to take on trust. Two of the standards are meta-standards, standards about standards: the Precision-First Design Standard is the keystone the structural suite is built on, and CRAFT is the meta-standard for any evaluation chain, with ORE and STRUCK as its boundary companions. Everything else is a domain standard or the vocabulary substrate they all rest on.
 
-Everything indexed here is published under open licenses and is adoptable on its own terms.
+Everything indexed here is published under open licenses and is adoptable on its own terms. Most now ship a machine-readable conformance layer alongside the prose, the schema an automated adopter validates against, generated from a single source so it cannot silently fall behind the standard.
 
 ---
 

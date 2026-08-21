@@ -100,15 +100,59 @@ Temporal Integrity Measurement and Evaluation. The judging layer: it reads a pro
 
 ---
 
+## Design Suite for AI (DS4AI)
+
+The design counterpart to the precision suites, a sibling to PT4AI and PC4AI: a family of small, dependency-free web primitives, one for each thing a shipped page owes a reader that a look-at-it review cannot see and that fast, AI-assisted building drops. **MISSING** is the standard beneath them, the model of six such gaps; each named standard closes one, and a surface that closes all six is MISSING Conformant. The primitives are zero-dependency, accessible by default, theme together through TEMPER, and audit against the standard from the served HTML.
+
+[The suite](https://github.com/Polymathie-Studio) · [MISSING, the standard](https://github.com/Polymathie-Studio/missing)
+
+### TEMPER (perceivable)
+
+A semantic color system: five appearance modes on one token schema, with every color solved to a contrast floor by the engine rather than chosen by eye. It themes the family and adopts onto any site as one CSS file and a small mode switcher.
+
+[Specification and source](https://github.com/Polymathie-Studio/temper)
+
+### GRASP (operable)
+
+Accessible interaction components across the WAI-ARIA common working set, reachable by any input or assistive technology and correct by construction rather than by a later audit, built native-first on the real element wherever one exists.
+
+[Specification and source](https://github.com/Polymathie-Studio/grasp)
+
+### LUCID (off the happy path)
+
+Reader-sovereign progressive disclosure: mark a term once and a reader opens it at three depths, a gloss to follow, an explainer to use, and detail with a path to its source to check. The disclosure principle of the suite.
+
+[Specification and source](https://github.com/Polymathie-Studio/lucid)
+
+### GRACE (off the happy path)
+
+The state components that render an interface honestly when the happy path breaks: loading, empty, error, and not-found, each disclosed and announced rather than left blank. GRACE makes LUCID's principle concrete in a UI.
+
+[Specification and source](https://github.com/Polymathie-Studio/grace)
+
+### HASP (hardened)
+
+The client-surface security posture a page declares to the browser, across three altitudes: response headers, markup integrity, and secrets. It audits declared hardening for effect, never presence alone, and never calls a site secure. HASP-KEY, the browser-held-keys part, ships as the hasp-key package.
+
+[Specification and source](https://github.com/Polymathie-Studio/hasp)
+
+### BEACON (findable)
+
+The head metadata, social cards, structured data, and site files that let a page represent itself correctly to search engines, shares, and agents, emitted into the server HTML where non-JS consumers read it, with a runnable audit.
+
+[Specification and source](https://github.com/Polymathie-Studio/beacon)
+
+### FLEET (fast and stable)
+
+The markup and resource hints that make a page load fast and stable against Core Web Vitals, with a runnable audit. It covers the primitizable slice; build-time transforms and server enforcement stay out of a frontend family's reach.
+
+[Specification and source](https://github.com/Polymathie-Studio/fleet)
+
+---
+
 ## Developer and independent standards
 
 Standards that stand on their own, independent of the coordination work above, and used across the sites and tools.
-
-### TEMPER
-
-A semantic color system: five appearance modes on one token schema, with every color solved to a contrast floor by the engine rather than chosen by eye. It is what themes integritysuite.org, and it adopts onto any site as one CSS file and a small mode switcher.
-
-[Specification and source](https://github.com/durgadasji/temper)
 
 ### Precision for AI (P4AI)
 
@@ -127,5 +171,7 @@ An operating discipline for working with an AI model: the practices for keeping 
 - The Dimensional Frame Language analyzer, a live browser tool that flags terms carrying unearned weight and offers the plain replacement: [framelanguage.regischapman.com](https://framelanguage.regischapman.com)
 - The Precision Toolkit for AI (PT4AI), a published workbench for AI-assisted evaluation built on these standards: [precision.regischapman.com](https://precision.regischapman.com)
 - The Precision Council for AI (PC4AI), a multi-evaluator adversarial review council with independent evaluators and a synthesis chair: [precision-council.regischapman.com](https://precision-council.regischapman.com)
+- The Design Suite for AI (DS4AI) front door, where the family is presented: [ds4ai.polymathie.xyz](https://ds4ai.polymathie.xyz)
+- The TEMPER color tool, a live workbench that derives a full semantic palette from a brand color and audits it: [color.polymathie.xyz](https://color.polymathie.xyz)
 
 Three MCP servers put the standards directly inside any AI assistant: the CSIS server and the Dimensional Frame Language server at [github.com/coordination-structural-integrity-suite/tools](https://github.com/coordination-structural-integrity-suite/tools), and the CROSS+WALKRI server at [github.com/CrossWalkri/tools](https://github.com/CrossWalkri/tools).

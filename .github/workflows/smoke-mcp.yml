@@ -1,0 +1,26 @@
+name: MCP endpoints smoke test
+
+# Runs a real Streamable HTTP handshake (initialize + tools/list) against the
+# four hosted MCP servers. Fails loudly if any endpoint stops answering, so a
+# silent regression on the hosted path cannot pass unnoticed the way it did
+# before. Pure Node, no dependencies.
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  push:
+    paths:
+      - 'scripts/smoke-mcp.mjs'
+      - '.github/workflows/smoke-mcp.yml'
+  workflow_dispatch: {}
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Handshake all four hosted endpoints
+        run: node scripts/smoke-mcp.mjs

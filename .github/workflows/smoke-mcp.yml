@@ -3,16 +3,21 @@ name: MCP endpoints smoke test
 # Runs a real Streamable HTTP handshake (initialize + tools/list) against the
 # four hosted MCP servers. Fails loudly if any endpoint stops answering, so a
 # silent regression on the hosted path cannot pass unnoticed the way it did
-# before. Pure Node, no dependencies.
+# before. On failure it opens (or comments on) a single tracking issue, so the
+# failure reaches notifications rather than only a workflow-run email.
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours
+    - cron: '*/30 * * * *'   # every 30 minutes
   push:
     paths:
       - 'scripts/smoke-mcp.mjs'
       - '.github/workflows/smoke-mcp.yml'
   workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   smoke:
@@ -24,3 +29,19 @@ jobs:
           node-version: '20'
       - name: Handshake all four hosted endpoints
         run: node scripts/smoke-mcp.mjs
+
+      - name: Open or update failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          title="MCP endpoint smoke test failing"
+          run_url="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          body="The scheduled MCP smoke test failed at $(date -u '+%Y-%m-%d %H:%M UTC'). One or more hosted endpoints did not answer the handshake. Run log: $run_url"
+          existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body" || true
+          fi
